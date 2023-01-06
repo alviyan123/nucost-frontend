@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>@1x/icons/dropdown_ico</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icons/dropdown_ico" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <rect id="bound" fill-opacity="0" fill="#A4A4A4" x="0" y="0" width="24" height="24"></rect>
+            <path d="M7.27882525,9 L17.7211747,9 C17.9973171,9 18.2211747,9.22385763 18.2211747,9.5 C18.2211747,9.63954902 18.1628559,9.7727484 18.0603148,9.86740172 L12.8391401,14.6869476 C12.6476092,14.8637453 12.3523908,14.8637453 12.1608599,14.6869476 L6.9396852,9.86740172 C6.73677483,9.68009984 6.72412165,9.36377032 6.91142353,9.16085995 C7.00607685,9.05831885 7.13927623,9 7.27882525,9 Z" id="ion-android-arrow-dropdown---Ionicons" fill="#72777E"></path>
+        </g>
+    </g>
+</svg>

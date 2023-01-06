@@ -1,0 +1,135 @@
+#project {
+    margin-top: 80px;
+    .nav-tabs {
+        border-bottom: 2px solid $grey-text2;
+        .nav-item {
+            border: none;
+            .nav-link {
+                border: none;
+                display: block;
+                font-size: 16px;
+                color: $grey-text2;
+                letter-spacing: 0;
+                text-align: center;
+                font-weight: bold;
+                position: relative;
+                padding-left: 40px;
+                padding-right: 40px;
+                background: none;
+                text-align: center;
+                cursor: pointer;
+                &::before {
+                    content: '';
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    width: 25px;
+                    height: 25px;
+                    position: absolute;
+                    top: 50%;
+                    left: 5px;
+                    transform: translateY(-50%);
+                }
+                &.zakat {
+                    &::before {
+                        background-image: url('../../images/icons/zakat.png');
+                    }
+                }
+                &.infaq {
+                    &::before {
+                        background-image: url('../../images/icons/infaq.png');
+                    }
+                }
+                &.wakaf {
+                    &::before {
+                        background-image: url('../../images/icons/wakaf.png');
+                    }
+                }
+                &.active {
+                    color: $green;
+                    border-bottom: 2px solid;
+                    &.zakat {
+                        &::before {
+                            background-image: url('../../images/icons/zakat-active.png');
+                        }
+                    }
+                    &.infaq {
+                        &::before {
+                            background-image: url('../../images/icons/infaq.png');
+                        }
+                    }
+                    &.wakaf {
+                        &::before {
+                            background-image: url('../../images/icons/wakaf-active.png');
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .tab-content {
+        background: #FFFFFF;
+        box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.10);
+        padding: 30px;
+        @include border-radius(10px);
+        .dropdown-option {
+            cursor: pointer;
+        }
+    }
+    section {
+        padding: 0;
+        &.info {
+            .dropdown {
+                button {
+                    background: #FFFFFF;
+                    border: 1px solid #E7E7E7;
+                    @include border-radius(4px);
+                    &:focus {
+                        outline: none;
+                        @include box-shadow(none);
+                    }
+                }
+            }
+        }
+    }
+}
+
+.timeline {
+    border-left: 1px solid #cac8c8;
+    border-left-style: dotted;
+    &:last-child {
+        border: none;
+    }
+    .col-1 {
+        max-width: 20px;
+    }
+    .row {
+        margin-left: -25px;
+    }
+    .dot {
+        position: relative;
+        width: 20px;
+        height: 20px;
+        background: #E7E7E7;
+        margin-top: 3px;
+        @include border-radius(100%);
+        .dot-white {
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            background: #FFFFFF;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            @include border-radius(100%);
+        }
+    }
+    .image {
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: cover;
+        width: 30px;
+        height: 30px;
+        margin-left: -16px;
+        @include border-radius(100%);
+    }
+}

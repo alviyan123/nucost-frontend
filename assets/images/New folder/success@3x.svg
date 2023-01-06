@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>success</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons/18/checked_green" transform="translate(-2.000000, -2.000000)" fill-rule="nonzero">
+            <g id="success" transform="translate(2.000000, 2.000000)">
+                <path d="M7,0 C3.14030769,0 0,3.14003846 0,7 C0,10.8599615 3.14030769,14 7,14 C10.8596923,14 14,10.8599615 14,7 C14,3.14003846 10.8596923,0 7,0 Z" id="Shape" fill="#5CB85C"></path>
+                <path d="M10.1175492,5.32414288 L6.52779801,9.36261294 C6.43940039,9.46200417 6.31622705,9.51315812 6.19215628,9.51315812 C6.09366248,9.51315812 5.99471996,9.48085036 5.91193133,9.41488869 L3.66833685,7.6200131 C3.47493901,7.46542944 3.44352868,7.1829609 3.5983367,6.9893387 C3.75292036,6.79571649 4.03561327,6.76430617 4.22901111,6.91911419 L6.13988053,8.44767511 L9.44671443,4.7275711 C9.61094554,4.5422502 9.8949846,4.5256476 10.0800811,4.69032744 C10.2654021,4.85523163 10.282229,5.13882197 10.1175492,5.32414288 Z" id="Path" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

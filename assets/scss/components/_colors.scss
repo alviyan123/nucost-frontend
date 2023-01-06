@@ -1,0 +1,43 @@
+.bg-primary{
+    background-color: #45BF7C;
+}
+.bg-secondary{
+    background-color: #80B340;
+}
+.bg-light{
+    background-color: #F9F9F9;
+}
+
+.text-primary{
+    color: #45BF7C !important;
+}
+.text-secondary{
+    color: #80B340 !important;
+}
+.text-c5{
+    color: #C5C5C5;
+}
+.text-8b{
+    color: #8B8B8B;
+}
+.text-72{
+    color: #72777E;
+}
+.text-55{
+    color: #555555;
+}
+.text-3c{
+    color: #3C3C3C;
+}
+.text-33{
+    color: #333333;
+}
+
+.primary-progress{
+    background-color: #E7E7E7;
+    border-radius: 4px;
+    height: 8px;
+    .progress{
+        background-color: #45BF7C;
+    }
+}

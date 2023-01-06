@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56 (81588) - https://sketch.com -->
+    <title>icons/16/google_ico</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icons/16/google_ico" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-Copy" x="0" y="0" width="16" height="16"></rect>
+        <path d="M8.14418605,6.99739583 L14.8883721,6.99739583 C14.9534884,7.35286458 15,7.69921875 15,8.1640625 C15,12.15625 12.2651163,15 8.14418605,15 C4.19069767,15 1,11.8736979 1,8 C1,4.12630208 4.19069767,1 8.14418605,1 C10.0697674,1 11.6883721,1.69270833 12.9348837,2.83203125 L10.9906977,4.6640625 C10.4604651,4.16276042 9.53023256,3.57942708 8.14418605,3.57942708 C5.70697674,3.57942708 3.71627907,5.55729167 3.71627907,8 C3.71627907,10.4427083 5.70697674,12.4205729 8.14418605,12.4205729 C10.972093,12.4205729 12.0325581,10.4335938 12.2,9.40364583 L8.14418605,9.40364583 L8.14418605,6.99739583 Z" id="google---FontAwesome" fill="#D0021B"></path>
+    </g>
+</svg>

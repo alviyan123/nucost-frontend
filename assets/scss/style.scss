@@ -1,0 +1,31 @@
+// Plugins (after depedencies)
+@import 'mixin';
+@import 'mixins/variables';
+@import 'mixins/breakpoints';
+@import 'mixins/grid-framework';
+@import 'mixins/grid';
+// Variables (after depedencies)
+@import 'variables';
+// Components (after dependencies)
+@import 'components/texts';
+@import 'components/colors';
+@import 'components/buttons';
+@import 'components/navbar';
+@import 'components/footer';
+@import 'components/form';
+@import 'components/status';
+@import 'components/other';
+@import 'components/pagination';
+// Pages (after dependencies)
+@import 'fonts';
+@import 'main';
+@import 'homepage';
+@import 'projects';
+@import 'dashboard';
+@import 'donation';
+@import 'project';
+@import 'qurban';
+@import 'news';
+@import 'page-calculator';
+@import 'page-payment';
+@import 'login';

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>@1x/icons/small/edit_ico</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icons/small/edit_ico" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons/small/money_ico">
+            <rect id="bound" fill-opacity="0" fill="#FFFFFF" x="0" y="0" width="24" height="24"></rect>
+            <path d="M16.84,9.24 L15.8266667,10.2533333 L13.7466667,8.17333333 L14.76,7.16 C14.8666672,7.0533328 14.997777,7 15.1533333,7 C15.3088897,7 15.4399995,7.0533328 15.5466667,7.16 L16.84,8.45333333 C16.9466672,8.56000053 17,8.69111033 17,8.84666667 C17,9.002223 16.9466672,9.1333328 16.84,9.24 Z M7,14.92 L13.1466667,8.77333333 L15.2266667,10.8533333 L9.08,17 L7,17 L7,14.92 Z" id="edit---material" fill="#72777E"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,448 @@
+header {
+    .navbar {
+        background-color: #FFFFFF;
+        box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.10);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        position: absolute;
+        width: 100%;
+        z-index: 10;
+        top: 0;
+        .container {
+            @include device(mobile) {
+                justify-content: flex-start;
+            }
+        }
+        .navbar-toggler {
+            color: #72777E;
+            border: 0;
+            padding-right: 0;
+            outline: none !important;
+            margin-left: auto;
+            @include device(mobile) {
+                margin-left: 10px;
+            }
+            @include device(mobile-xs) {
+                margin-left: 10px;
+            }
+        }
+        .navbar-brand {
+            padding: 0;
+            padding-right: 25px;
+            margin-right: 20px;
+            border-right: 1px solid rgba(#C5C5C5, 0.5);
+            @include device(phablet) {
+                margin-right: 10px;
+                padding-right: 10px;
+            }
+            @include device(mobile) {
+                margin-right: 10px;
+                padding-right: 10px;
+            }
+            @include device(mobile-xs) {
+                margin-right: 10px;
+                padding-right: 10px;
+            }
+            img {
+                height: 35px;
+                width: auto;
+                &.logo-home {
+                    display: none;
+                }
+                &.desktop {
+                    display: block;
+                    @include device(mobile) {
+                        display: none;
+                    }
+                    @include device(mobile-xs) {
+                        display: none;
+                    }
+                }
+                &.mobile {
+                    display: none;
+                    @include device(mobile) {
+                        display: block;
+                    }
+                    @include device(mobile-xs) {
+                        display: block;
+                    }
+                }
+            }
+        }
+        .navbar-search {
+            display: flex;
+            align-items: center;
+            margin-bottom: 0;
+            transition: all 0.3s ease-in-out;
+            img {
+                margin-right: 10px;
+                opacity: 0.5;
+            }
+            .form-control {
+                font-size: 16px;
+                color: #3C3C3C;
+                border: 0;
+                border-radius: 0;
+                padding: 0;
+            }
+        }
+        .navbar-nav {
+            align-items: center;
+            .nav-item {
+                margin-right: 40px;
+                @include device(phablet) {
+                    margin-right: 0px;
+                }
+                @include device(mobile) {
+                    margin-right: 0px;
+                }
+                @include device(mobile-xs) {
+                    margin-right: 0px;
+                }
+                &:last-child {
+                    margin-right: 0;
+                }
+                .nav-link {
+                    padding: 18px 0;
+                    color: #72777E;
+                    @extend %font-16;
+                    font-weight: 600;
+                    position: relative;
+                    @include device(phablet) {
+                        padding-top: 0;
+                        padding-bottom: 0;
+                        margin-top: 20px;
+                    }
+                    @include device(mobile) {
+                        padding-top: 0;
+                        padding-bottom: 0;
+                        margin-top: 20px;
+                    }
+                    @include device(mobile-xs) {
+                        padding-top: 0;
+                        padding-bottom: 0;
+                        margin-top: 20px;
+                    }
+                    &:hover {
+                        color: $green;
+                    }
+                    &.dropdown-toggle {
+                        &:after {
+                            border: 0;
+                            margin-left: 11px;
+                            width: 13px;
+                            height: 6px;
+                            background-image: url('../../images/icons/dropdown-toggle.png');
+                            background-size: cover;
+                            vertical-align: middle;
+                        }
+                    }
+                    &.active {
+                        &:before {
+                            width: 100%;
+                            height: 3px;
+                            background-color: $green;
+                            position: absolute;
+                            left: 0;
+                            bottom: -10px;
+                            content: "";
+                            @include device(phablet) {
+                                bottom: 5px;
+                            }
+                            @include device(mobile) {
+                                bottom: 5px;
+                            }
+                            @include device(mobile-xs) {
+                                bottom: 5px;
+                            }
+                        }
+                    }
+                }
+                span {
+                    position: absolute;
+                    top: 30px;
+                    &.dropdown-toggle {
+                        &:after {
+                            border: 0;
+                            margin-left: 5px;
+                            width: 13px;
+                            height: 6px;
+                            background-image: url('../../images/icons/dropdown-toggle.png');
+                            background-size: cover;
+                            vertical-align: unset;
+                        }
+                    }
+                }
+                .btn {
+                    padding: 9px 30px;
+                    font-weight: 600;
+                    font-size: 13px;
+                    &.btn-transparent {
+                        color: #72777E;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        padding: 9px 0;
+                        img {
+                            margin-right: 10px;
+                        }
+                    }
+                    &.btn-primary {
+                        background-color: #80B340 !important;
+                        border-color: #80B340 !important;
+                        color: #fff !important;
+                        border-radius: 6px;
+                        &.active {
+                            background-color: #80B340 !important;
+                            border-color: #80B340 !important;
+                            color: #fff !important;
+                        }
+                    }
+                }
+                &.dropdown {
+                    .dropdown-menu {
+                        position: absolute;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        top: calc(100% + 5px);
+                        //display: block !important;
+                        border-radius: 3px;
+                        border-color: rgba(211, 215, 223, 0.40);
+                        padding: 0;
+                        border-top: 3px solid $green;
+                        .dropdown-item {
+                            @extend %font-16;
+                            color: #72777E;
+                            padding: 10px 20px;
+                            background-color: transparent;
+                            background: none;
+                            &:hover,
+                            &:focus,
+                            &.active {
+                                background-color: transparent;
+                                background: none;
+                                color: $green;
+                            }
+                            +.dropdown-item {
+                                box-shadow: inset 0 1px 0 0 rgba(211, 215, 223, 0.40);
+                            }
+                        }
+                    }
+                }
+            }
+            &.navbar-cta {
+                margin-left: 60px;
+                @include device(phablet) {
+                    margin-top: 30px;
+                    margin-left: 0px;
+                    flex-direction: row;
+                    justify-content: center;
+                }
+                @include device(mobile) {
+                    margin-top: 30px;
+                    margin-left: 0px;
+                    flex-direction: row;
+                    justify-content: center;
+                }
+                @include device(mobile-xs) {
+                    margin-top: 30px;
+                    margin-left: 0px;
+                    flex-direction: row;
+                    justify-content: center;
+                }
+                .nav-item {
+                    margin-right: 30px;
+                    @include device(phablet) {
+                        margin-right: 20px;
+                    }
+                    @include device(mobile) {
+                        margin-right: 20px;
+                    }
+                    @include device(mobile-xs) {
+                        margin-right: 20px;
+                    }
+                    &:last-child {
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+        &.scroll {
+            position: fixed;
+        }
+    }
+}
+
+.nav-mobile {
+    display: none;
+    @include device(phablet) {
+        display: flex;
+        margin-left: auto;
+    }
+    @include device(mobile) {
+        display: flex;
+        margin-left: auto;
+    }
+    @include device(mobile-xs) {
+        display: flex;
+        margin-left: auto;
+    }
+    .navbar-nav {
+        flex-direction: row;
+        .nav-item {
+            .nav-link {
+                padding-top: 20px !important;
+                margin-top: 0 !important;
+            }
+        }
+    }
+}
+
+.homepage {
+    header {
+        .navbar {
+            background-color: transparent;
+            box-shadow: none;
+            .navbar-brand {
+                border-right-width: 0;
+                img {
+                    &.logo-home {
+                        display: block;
+                        @include device(mobile) {
+                            display: block;
+                        }
+                        @include device(mobile-xs) {
+                            display: block;
+                        }
+                    }
+                    &.desktop {
+                        display: none;
+                        @include device(mobile) {
+                            display: none;
+                        }
+                        @include device(mobile-xs) {
+                            display: none;
+                        }
+                    }
+                    &.mobile {
+                        display: none;
+                        @include device(mobile) {
+                            display: none;
+                        }
+                        @include device(mobile-xs) {
+                            display: none;
+                        }
+                    }
+                }
+            }
+            .navbar-search {
+                opacity: 0;
+                display: none;
+            }
+            .navbar-toggler {
+                color: #fff;
+            }
+            .navbar-collapse {
+                @include device(phablet) {
+                    background-color: rgba(#000, 0.5);
+                    padding: 10px 0;
+                }
+                @include device(mobile) {
+                    background-color: rgba(#000, 0.5);
+                    padding: 10px 0;
+                }
+                @include device(mobile-xs) {
+                    background-color: rgba(#000, 0.5);
+                    padding: 10px 0;
+                }
+            }
+            .navbar-nav {
+                .nav-item {
+                    .nav-link {
+                        color: #fff;
+                        &:hover {
+                            color: $green;
+                        }
+                        &.dropdown-toggle {
+                            &:after {
+                                filter: invert(1) brightness(100);
+                            }
+                        }
+                    }
+                    .btn {
+                        &.btn-transparent {
+                            color: #fff;
+                            img {
+                                filter: invert(1) brightness(100);
+                            }
+                        }
+                    }
+                }
+            }
+            &.scroll {
+                background-color: #fff;
+                box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.10);
+                .navbar-brand {
+                    border-right-width: 1;
+                    img {
+                        &.logo-home {
+                            display: none;
+                        }
+                        &.desktop {
+                            display: block;
+                            @include device(mobile) {
+                                display: none;
+                            }
+                            @include device(mobile-xs) {
+                                display: none;
+                            }
+                        }
+                        &.mobile {
+                            display: none;
+                            @include device(mobile) {
+                                display: block;
+                            }
+                            @include device(mobile-xs) {
+                                display: block;
+                            }
+                        }
+                    }
+                }
+                .navbar-search {
+                    opacity: 1;
+                    display: flex;
+                }
+                .navbar-toggler {
+                    color: #72777E;
+                }
+                .navbar-collapse {
+                    background-color: transparent;
+                    padding: 0;
+                }
+                .navbar-nav {
+                    .nav-item {
+                        .nav-link {
+                            color: #72777E;
+                            &:hover {
+                                color: $green;
+                            }
+                            &.dropdown-toggle {
+                                &:after {
+                                    filter: unset;
+                                }
+                            }
+                        }
+                        .btn {
+                            &.btn-transparent {
+                                color: #72777E;
+                                img {
+                                    filter: unset;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

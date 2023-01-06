@@ -1,0 +1,26 @@
+.project-status{
+    background: #FFFFFF;
+    border-radius: 13.5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0;
+    padding: 5px 24px;
+
+    &.success{
+        border: 1px solid #45BF7C;
+        color: #45BF7C;
+    }
+    &.pending{
+        border: 1px solid #F9A21A;
+        color: #F9A21A;
+    }
+    &.failed{
+        border: 1px solid #D0021B;
+        color: #D0021B;
+    }
+    @include media-breakpoint-down(md) {
+        font-size: 10px;
+        padding: 4px 19px;
+    }
+}

@@ -1,0 +1,29 @@
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* :root {
+    --bg-color: #f7f7f7;
+    --color: #21252b;
+  }
+  
+.dark-mode {
+    --bg-color: #f7f7f7;
+    --color: #21252b;
+} */
+
+html {
+    box-sizing: border-box;
+    overflow-x: hidden !important;
+}
+
+body {
+    width: 100vw;
+    /* background-color: var(--bg-color);
+    transition: background-color .3s; */
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56 (81588) - https://sketch.com -->
+    <title>icons/16/fbook_ico</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icons/16/fbook_ico" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" x="0" y="0" width="16" height="16"></rect>
+        <path d="M8.66666667,5.66666667 L11,5.66666667 L10.7083333,8 L8.66666667,8 L8.66666667,15 L5.640625,15 L5.640625,8 L4,8 L4,5.66666667 L5.640625,5.66666667 L5.640625,4.09895833 C5.640625,3.0781199 5.89583078,2.30642622 6.40625,1.78385417 C6.91666922,1.26128211 7.76735516,1 8.95833333,1 L11,1 L11,3.33333333 L9.76041667,3.33333333 C9.2986088,3.33333333 9.00086872,3.40624927 8.8671875,3.55208333 C8.73350628,3.6979174 8.66666667,3.94097052 8.66666667,4.28125 L8.66666667,5.66666667 Z" id="ion-social-facebook---Ionicons" fill="#4A90E2"></path>
+    </g>
+</svg>

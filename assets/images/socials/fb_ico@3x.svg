@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>fb_ico</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="project-detail" transform="translate(-1188.000000, -885.000000)">
+            <g id="Group-16" transform="translate(1060.000000, 885.000000)">
+                <g id="Group-15-[0h]" transform="translate(128.000000, 0.000000)">
+                    <g id="fb_ico">
+                        <rect id="Rectangle-2" fill="#0051AF" x="0" y="0" width="36" height="36"></rect>
+                        <path d="M18.6666667,15.6666667 L21,15.6666667 L20.7083333,18 L18.6666667,18 L18.6666667,25 L15.640625,25 L15.640625,18 L14,18 L14,15.6666667 L15.640625,15.6666667 L15.640625,14.0989583 C15.640625,13.0781199 15.8958308,12.3064262 16.40625,11.7838542 C16.9166692,11.2612821 17.7673552,11 18.9583333,11 L21,11 L21,13.3333333 L19.7604167,13.3333333 C19.2986088,13.3333333 19.0008687,13.4062493 18.8671875,13.5520833 C18.7335063,13.6979174 18.6666667,13.9409705 18.6666667,14.28125 L18.6666667,15.6666667 Z" id="ion-social-facebook---Ionicons" fill="#FFFFFF"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

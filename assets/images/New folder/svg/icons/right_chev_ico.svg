@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>@1x/icons/right_chev_ico</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icons/right_chev_ico" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.699999988">
+        <g fill="#FFFFFF">
+            <rect id="bound" fill-opacity="0" x="0" y="0" width="42" height="42"></rect>
+            <path d="M19.0194549,20.9787802 L28.7665358,31.0485226 C29.0778214,31.3571753 29.0778214,31.6658233 28.7665358,31.9744759 L27.0155632,33.7685105 C26.7042776,34.0771632 26.3929967,34.0771632 26.0817111,33.7685105 L14.1750973,21.4417569 C14.0583652,21.3260121 14,21.1716881 14,20.9787802 C14,20.7858723 14.0583652,20.6315483 14.1750973,20.5158035 L26.0817111,8.18904988 C26.354086,7.91897881 26.6653669,7.93826931 27.0155632,8.24692196 L28.7665358,9.98308445 C29.0778214,10.2917371 29.0778214,10.6003851 28.7665358,10.9090378 L19.0194549,20.9787802 Z" id="ion-chevron-left---Ionicons" transform="translate(21.500000, 21.000000) scale(-1, 1) translate(-21.500000, -21.000000) "></path>
+        </g>
+    </g>
+</svg>

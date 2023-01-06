@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>pagination/active</title>
+    <desc>Created with Sketch.</desc>
+    <g id="pagination/active" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-3-Copy" fill="#5CB85C" x="0" y="0" width="32" height="32" rx="16"></rect>
+        <text id="1-copy" font-family="Montserrat-SemiBold, Montserrat SemiBold" font-size="14" font-weight="500" fill="#FFFFFF">
+            <tspan x="12" y="20">1</tspan>
+        </text>
+    </g>
+</svg>

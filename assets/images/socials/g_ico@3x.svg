@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>g_ico</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="project-detail" transform="translate(-1208.000000, -478.000000)">
+            <g id="Group-23" transform="translate(866.000000, 478.000000)">
+                <g id="Group-15-[0h]" transform="translate(234.000000, 0.000000)">
+                    <g id="g_ico" transform="translate(108.000000, 0.000000)">
+                        <rect id="Rectangle-2-Copy-3" fill="#D0021B" x="0" y="0" width="36" height="36"></rect>
+                        <path d="M18.1647841,16.8541667 L25.8724252,16.8541667 C25.9468439,17.2604167 26,17.65625 26,18.1875 C26,22.75 22.8744186,26 18.1647841,26 C13.6465116,26 10,22.4270833 10,18 C10,13.5729167 13.6465116,10 18.1647841,10 C20.3654485,10 22.2152824,10.7916667 23.6398671,12.09375 L21.4179402,14.1875 C20.8119601,13.6145833 19.7488372,12.9479167 18.1647841,12.9479167 C15.379402,12.9479167 13.1043189,15.2083333 13.1043189,18 C13.1043189,20.7916667 15.379402,23.0520833 18.1647841,23.0520833 C21.3966777,23.0520833 22.6086379,20.78125 22.8,19.6041667 L18.1647841,19.6041667 L18.1647841,16.8541667 Z" id="google---FontAwesome" fill="#FFFFFF"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

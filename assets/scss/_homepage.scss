@@ -1,0 +1,193 @@
+.homepage {
+    .header {
+        position: relative;
+        .header-menu {
+            padding-top: 30px;
+            .header-search {
+                border-left: 1px solid #D8D8D8;
+                input {
+                    margin-left: 15px;
+                    border: none;
+                }
+            }
+        }
+        &.full-width {
+            height: 892px;
+            .header-menu {
+                .navigation {
+                    a {
+                        color: #ffffff;
+                    }
+                }
+            }
+            @include media-breakpoint-down(sm) {
+                height: 50vh;
+            }
+        }
+    }
+    .header-overlay-background {
+        opacity: 0.6;
+        background-image: linear-gradient(179deg, rgba(0, 0, 0, 0.5) 1%, #000000 78%);
+        z-index: 1;
+        height: 100%;
+    }
+    .header-content {
+        margin-top: 87px;
+        position: relative;
+        z-index: 2;
+        .cta-area {
+            h1 {
+                margin-bottom: 20px;
+                margin-right: 20px;
+            }
+            p {
+                margin-bottom: 30px;
+            }
+        }
+        .header-card {
+            overflow: hidden;
+            .tab-button {
+                height: 84px;
+                color: #C5C5C5;
+                border-bottom: 1px solid #C5C5C5;
+                cursor: pointer;
+                h4 {
+                    line-height: 24px;
+                }
+                .zakat,
+                .infaq,
+                .waqaf {
+                    height: 24px;
+                    padding-left: 30px;
+                    background-size: contain;
+                    background-position: left center;
+                    background-repeat: no-repeat;
+                }
+                .zakat {
+                    background-image: url('../../images/icons/zakat.png');
+                }
+                .infaq {
+                    background-image: url('../../images/icons/infaq.png');
+                }
+                .waqaf {
+                    background-image: url('../../images/icons/wakaf.png');
+                }
+                &.active {
+                    color: #45BF7C;
+                    border-bottom: 4px solid #45BF7C;
+                    .zakat {
+                        background-image: url('../../images/icons/zakat-active.png');
+                    }
+                    .infaq {
+                        background-image: url('../../images/icons/infaq-active.png');
+                    }
+                    .waqaf {
+                        background-image: url('../../images/icons/wakaf-active.png');
+                    }
+                }
+            }
+            form {
+                margin-top: 30px;
+                margin-bottom: 0;
+            }
+        }
+    }
+    .statistics {
+        position: relative;
+        margin-top: -74px;
+        padding: 30px 0 32px;
+        box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.11);
+        z-index: 1;
+        background: #FFFFFF;
+        .text-dark {
+            opacity: 0.5;
+            font-family: Montserrat;
+            font-size: 16px;
+            color: #555555;
+            text-align: center;
+            line-height: 20px;
+        }
+        .stat-column {
+            height: 148px;
+            &.middle {
+                //border-left: 1px solid #979797;
+                //border-right: 1px solid #979797;
+            }
+            h1 {
+                line-height: 40px;
+            }
+        }
+    }
+    .help-donate {
+        margin-top: -136px;
+        padding-top: 217px;
+        background: #F9F9F9;
+        padding-bottom: 80px;
+        .row {
+            justify-content: center;
+            align-items: center;
+        }
+        h1 {
+            font-family: Montserrat;
+            font-size: 32px;
+            color: $grey-help-donate;
+            line-height: 42px;
+            margin-bottom: 60px;
+        }
+        p {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 16px;
+            color: $grey-help-donate;
+            line-height: 24px;
+        }
+        .help-text {
+            padding-right: 100px;
+        }
+    }
+    .donation-list {
+        margin-top: 80px;
+        @include media-breakpoint-down(md) {
+            margin-top: 30px;
+        }
+    }
+    .home-video {
+        padding: 152px 0;
+        @include media-breakpoint-down(md) {
+            padding: 20px 15px 45px;
+        }
+    }
+    .bottom-cta {
+        position: relative;
+        height: 563px;
+        display: flex;
+        .content-row {
+            height: 100%;
+        }
+        .cta-overlay-background {
+            opacity: 0.6;
+            background-image: linear-gradient(179deg, rgba(0, 0, 0, 0.00) 1%, #000000 78%);
+            z-index: -1;
+        }
+        .cta-background {
+            background-image: url('../../images/homepage/headerpic.jpeg');
+            z-index: -2;
+        }
+        @include media-breakpoint-down(md) {
+            height: 270px;
+        }
+    }
+    .news-update {
+        padding: 80px 0 150px;
+        .news-picture {
+            width: 100%;
+            padding-top: 61.1%;
+        }
+        @include media-breakpoint-down(md) {
+            padding: 0 0 60px;
+            overflow: auto;
+            .newswrapper {
+                min-width: 900px;
+            }
+        }
+    }
+}

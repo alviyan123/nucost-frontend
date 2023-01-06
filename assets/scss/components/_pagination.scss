@@ -1,0 +1,42 @@
+.pagination {
+    width: fit-content;
+    margin: auto;
+
+    li {
+        width: 32px;
+        height: 32px;
+        text-align: center;
+        border: 1px solid $grey-text2;
+        position: relative;
+        @include border-radius(100%);
+        margin-right: 10px;
+        cursor: pointer;
+
+        a {
+            display: block;
+            position: absolute;
+            top: 17%;
+            left: 50%;
+            transform: translate(-50%);
+            color: $grey-text2;
+        }
+
+        &:hover {
+            background: $green;
+            border: 1px solid $green;
+            
+            a {
+                color: #ffffff;
+            }
+        }
+
+        &.active {
+            background: $green;
+            border: 1px solid $green;
+            
+            a {
+                color: #ffffff;
+            }
+        }
+    }
+}

@@ -1,0 +1,54 @@
+// other components
+.background-cover {
+    background-size: cover;
+    background-position: center;
+}
+
+.absolute-cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.opacity-50 {
+    opacity: 0.5;
+}
+
+.border-rad-circle {
+    border-radius: 900px;
+}
+
+.border-rad-lg {
+    border-radius: 20px;
+}
+
+.border-rad-md {
+    border-radius: 10px;
+}
+
+.border-rad-sm {
+    border-radius: 6px;
+}
+
+.project-search {
+    input {
+        width: 100%;
+        border: 1px solid #E7E7E7;
+        padding: 14px 0 14px 50px;
+        background-image: url('../../images/icons/search.svg');
+        background-position: 5% center;
+        background-repeat: no-repeat;
+    }
+}
+
+.white-dropdown {
+    padding: 14px 20px;
+    border: 1px solid #E7E7E7;
+    color: #555555 !important;
+    &.dropdown-block {
+        width: 100%;
+        display: block;
+    }
+}

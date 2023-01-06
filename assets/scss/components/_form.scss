@@ -1,0 +1,133 @@
+form{
+    label{
+        font-size: 14px;
+        line-height: 19px;
+        color: theme-color("dark");
+    }
+    .input-group{
+        .input-group-prepend{
+            .input-group-text{
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 22px;
+                color: #555555;
+                padding: 13px 11px 17px 16px;
+                background: unset;
+            }
+        }
+    }
+
+    .form-group{
+        position: relative;
+        margin-bottom: 20px;
+
+        .char-counter{
+            position: absolute;
+            z-index: 1;
+            background-color: #fff;
+            bottom: 5px;
+            right: 20px;
+            font-size: 14px;
+            color: #C5C5C5;
+        }
+    }
+
+    .form-text{
+        font-size: 14px;
+        color: #72777E;
+        font-style: italic;
+        opacity: 0.5;
+        margin-top: 10px;
+    }
+
+    .form-control{
+        padding: 16px 20px;
+        font-size: 14px;
+        resize: none;
+
+        &:focus{
+            box-shadow: none;
+            border-color: $green;
+        }
+    
+        &::-webkit-input-placeholder {
+            color: #C5C5C5 !important;
+        }
+        &::-moz-placeholder {
+            color: #C5C5C5 !important;
+        }
+        &::-ms-placeholder {
+            color: #C5C5C5 !important;
+        }
+        &::placeholder {
+            color: #C5C5C5 !important;
+        }
+    }
+    
+    &.bigform{
+        input[type=number]::-webkit-inner-spin-button, 
+        input[type=number]::-webkit-outer-spin-button { 
+            -webkit-appearance: none; 
+            margin: 0; 
+        }
+        input, select, textarea{
+            font-size: 16px;
+            line-height: 22px;
+            color: #C5C5C5;
+            letter-spacing: 0;
+            font-family: 'Montserrat', sans-serif;
+            padding: 18px 20px;
+        }
+        select{
+            height: 60px !important;
+        }
+        .form-group, .form-check{
+            margin-bottom: 15px;
+        }
+        .form-check-label{
+            font-size: 14px;
+            color: #8B8B8B;
+        }
+    }
+
+    .custom-checkbox {
+        display: flex;
+        align-items: center;
+        padding-left: 35px;
+        min-height: 20px;
+        .custom-control-label{
+            font-size: 14px;
+            color: #8B8B8B; 
+
+            a{
+                color: $green;
+                font-weight: 600;
+            }
+            &:before{
+                width: 20px;
+                height: 20px;
+                background-color: #F8F8F8;
+                border: 1px solid #ddd;
+                border-radius: 4px;
+                top: 0;
+            }
+
+            &:after{
+                width: 20px;
+                height: 20px;
+                top: 0;
+            }
+        }
+
+        .custom-control-input{
+            &:checked{
+                ~ .custom-control-label{
+                    &:before{
+                        background-color: $green;
+                        border-color: $green;
+                    }
+                }
+            }
+        }
+    }
+}

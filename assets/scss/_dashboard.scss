@@ -1,0 +1,209 @@
+.dashboard {
+    margin-top: 80px;
+    margin-bottom: 150px;
+    @include media-breakpoint-down(md) {
+        margin-top: 36px;
+        margin-bottom: 100px;
+    }
+    .sidebar-card {
+        border: 1px solid #EAEAEA;
+        padding-top: 40px;
+    }
+    .sidebar-card,
+    .dashboard-mobile-nav {
+        .profile-pic {
+            border: 2px solid #FFFFFF;
+            box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.10);
+            width: 65px;
+            height: 65px;
+        }
+        .sidebar-nav {
+            ul {
+                list-style: none;
+                padding-inline-start: 0;
+                margin: 0;
+                li {
+                    padding: 10px 0;
+                    box-shadow: 0 1px 0 0 #EAEAEA;
+                    a h4 {
+                        color: #72777E;
+                        font-weight: 400;
+                        padding-left: 55px;
+                        margin-left: 15px;
+                        line-height: 40px;
+                        margin-bottom: 0;
+                        &.overview,
+                        &.notifikasi,
+                        &.laporan,
+                        &.transaksi {
+                            background-position: left center;
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                        }
+                        &.overview {
+                            background-image: url('../../images/dashboard/icon-overview.svg');
+                        }
+                        &.notifikasi {
+                            background-image: url('../../images/dashboard/icon-notifikasi.svg');
+                            &.unread {
+                                position: relative;
+                                &::before {
+                                    content: '';
+                                    width: 5px;
+                                    height: 5px;
+                                    background: red;
+                                    top: 10px;
+                                    left: 22px;
+                                    display: block;
+                                    position: absolute;
+                                    @include border-radius(100%);
+                                }
+                            }
+                        }
+                        &.laporan {
+                            background-image: url('../../images/dashboard/icon-laporan.svg');
+                        }
+                        &.transaksi {
+                            background-image: url('../../images/dashboard/icon-transaksi.svg');
+                        }
+                    }
+                    &:last-child {
+                        box-shadow: unset;
+                    }
+                    &.active {
+                        a h4 {
+                            color: #45BF7C;
+                            font-weight: 600;
+                            &.overview {
+                                background-image: url('../../images/dashboard/icon-overview-active.svg');
+                            }
+                            &.notifikasi {
+                                background-image: url('../../images/dashboard/icon-notifikasi-active.svg');
+                            }
+                            &.laporan {
+                                background-image: url('../../images/dashboard/icon-laporan-active.svg');
+                            }
+                            &.transaksi {
+                                background-image: url('../../images/dashboard/icon-transaksi-active.svg');
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .dashboard-mobile-nav {
+        .mobile-nav {
+            box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.10);
+            padding: 0 5px;
+            width: 100%;
+            overflow: auto;
+            .navbutton {
+                opacity: 0.5;
+                padding: 10px;
+                white-space: pre;
+                a {
+                    color: #72777E;
+                }
+                &.active {
+                    opacity: 1;
+                    a {
+                        color: #45BF7C;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+    }
+    .donation-overview {
+        padding: 70px 0;
+        background: #FFFFFF;
+        box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.08);
+    }
+    .donation-list {
+        .donation-pic {
+            width: 74px;
+            height: 74px;
+            @include media-breakpoint-down(md) {
+                width: 60px;
+                height: 60px;
+            }
+        }
+        .donation-card {
+            padding: 20px 30px;
+            background: #FFFFFF;
+            box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.10);
+            border-radius: 0;
+            transition: all 0.2s;
+            margin-bottom: 20px;
+            cursor: pointer;
+            h3 {
+                line-height: 28px;
+            }
+            &:hover {
+                box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.08);
+            }
+            @include media-breakpoint-down(md) {
+                padding: 20px;
+            }
+        }
+    }
+}
+
+.statistics-wrap {
+    @include media-breakpoint-down(md) {
+        overflow: auto;
+        //margin: -15px -15px 0;
+        padding: 15px 15px 0;
+        section {
+            min-width: 900px;
+            .row {
+                .col {
+                    display: block;
+                }
+            }
+        }
+    }
+}
+
+.dashboard-statistics {
+    height: 146px;
+    min-width: 132px;
+    background: #FFFFFF;
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.08);
+    .row {
+        height: 100%;
+    }
+    @include media-breakpoint-down(md) {
+        box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.11);
+    }
+}
+
+.edit-profile {
+    .label-photo {
+        border: 2px solid #FFFFFF;
+        box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1);
+        width: 100px;
+        height: 100px;
+        position: relative;
+        cursor: pointer;
+        span {
+            display: block;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+            text-align: center;
+            padding-bottom: 13px;
+            /* border-top: 1px solid; */
+            background: #FFFFFF80;
+            font-size: 12px;
+            padding-top: 5px;
+            .fas {
+                font-size: 10px;
+            }
+        }
+    }
+    input#photo {
+        display: none;
+    }
+}

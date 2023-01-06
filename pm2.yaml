@@ -1,0 +1,7 @@
+apps:
+   - name       : "nucare"
+     script     : npm
+     intepreter : run
+     args   :
+      - start
+     watch      : true

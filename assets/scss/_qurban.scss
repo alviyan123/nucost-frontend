@@ -1,0 +1,148 @@
+.qurban,
+.qurban-detail {
+    .qurban-opening {
+        height: 642px;
+        background-image: linear-gradient(129deg, #27B29C 0%, #45BF7C 73%);
+    }
+    .qurban-prices {
+        margin-top: -214px;
+        .qurban-price-card {
+            background: #FFFFFF;
+            box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.10);
+            border-radius: 30px;
+            .qurban-price-top {
+                padding: 30px;
+                border-bottom: 1px solid #C5C5C5;
+                .icon-qurban {
+                    img {
+                        width: 58px;
+                        height: auto;
+                    }
+                }
+            }
+            .qurban-price-bottom {
+                padding: 23px 30px;
+            }
+        }
+    }
+    .qurban-quotes {
+        padding: 235px 0 65px;
+        margin-top: -185px;
+        .quotes-pic {
+            border: 2px solid #FFFFFF;
+            box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.10);
+            width: 90px;
+            height: 90px;
+        }
+    }
+    .cara-berqurban {
+        padding: 92px 0 170px;
+    }
+    .kalkulator-qurban {
+        background: #FFFFFF;
+        @include media-breakpoint-down(md) {
+            .kalkulator-qurban-top {
+                border-radius: 4px;
+                padding: 20px;
+                box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.10);
+            }
+        }
+        @include media-breakpoint-up(lg) {
+            border-radius: 10px;
+            padding: 30px 20px;
+            box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.10);
+        }
+        .kalkulator-qurban-tab {
+            border-bottom: 1px solid #D8D8D8;
+            a {
+                .tab-button {
+                    padding: 15px 0;
+                    color: #3C3C3C;
+                    border-bottom: 4px solid #3C3C3C;
+                    opacity: 1;
+                    h3,
+                    h5 {
+                        font-weight: 600;
+                    }
+                    @include media-breakpoint-down(md) {
+                        padding: 9px 0;
+                    }
+                }
+                &.collapsed {
+                    .tab-button {
+                        opacity: 0.5;
+                        border-bottom: unset;
+                        h3,
+                        h5 {
+                            font-weight: 400;
+                        }
+                    }
+                }
+            }
+        }
+        .toogle-detail-kelompok {
+            .toogle-button {
+                padding: 15px 0;
+                box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.10);
+                margin-bottom: 22px;
+                position: relative;
+                background-image: url('../../images/qurban/chevron-up.png');
+                background-position: right center;
+                background-size: 32px;
+                background-repeat: no-repeat;
+            }
+            &.collapsed {
+                .toogle-button {
+                    background-image: url('../../images/qurban/chevron-down.png');
+                }
+            }
+        }
+    }
+}
+
+.card-qurban {
+    padding: 1rem 21px!important;
+}
+
+.pequrban-item {
+    .circle {
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        font-size: 18px;
+        background: $green;
+        color: #ffffff;
+        font-weight: bold;
+        @include border-radius(100%);
+    }
+}
+
+.increment {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    a {
+        display: block;
+        width: 20px;
+        height: 20px;
+        padding: 2px;
+        position: absolute;
+        top: 50%;
+        text-align: center;
+        color: #27B29C!important;
+        background: #e8e5e5;
+        transform: translateY(-50%);
+        font-size: 11px;
+        @include border-radius(100%);
+        &.decrease {
+            left: 15px;
+        }
+        &.increase {
+            right: 15px;
+        }
+    }
+    input {
+        text-align: center;
+        padding: 12px;
+    }
+}
